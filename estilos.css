@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap ');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+
+
+:root{
+    --Texto_escuro: #14183E;
+    --Azul: #4372EB;
+    --Cinza_claro: #9A9EA6
+}
+
+body{
+    margin: 0px;
+    font-family: Plus Jakarta Sans;
+}
+
+#barra_inicial{
+    display: flex;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+#barra_inicial img{
+    margin-left: 50px;
+}
+
+
+#casa {
+    margin-left: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+#casa i{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(212, 212, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+#secao_01{
+    border: 1px solid red;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+#conteudo_secao01{
+    color: var(--Texto_escuro);
+}
+span{
+    color: var(--Azul);
+}
+#conteudo_secao01 h1{
+    
+}
+
+
+
+
+
+
+
